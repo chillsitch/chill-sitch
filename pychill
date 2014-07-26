@@ -13,7 +13,8 @@ BANDS = [
             "Dispatch",
             "early Phil Collins",
             "Ben Folds",
-            "Sam Cooke"
+            "Sam Cooke",
+            "Carole King"
         ]
 
 PLACES = [
@@ -26,6 +27,7 @@ PLACES = [
             "low-cost local music event",
             "beer tasting event",
             "friend's bbq",
+            "lazy river"
          ]
 
 EMOTICONS = [ ";)" ]
