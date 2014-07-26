@@ -23,6 +23,7 @@ PLACES = [
             "big park",
             "regional music event",
             "free local music event",
+            "low-cost local music event",
             "beer tasting event",
             "friend's bbq",
          ]
@@ -51,11 +52,13 @@ GOOD_THINGS = [
                 "playing pool but not for money",
                 "avoiding a nail in the road",
                 "meeting Sade",
+                "almost meeting Sade",
                 "inner-tubing down the Nile with a hippo",
                 "reading about Mars and just loving science",
                 "snorkeling for the first time",
                 "talking to Sade about her trip to Costa Rica",
-                "discovering $5 in my pocket and giving it away"
+                "discovering $5 in my pocket and giving it away",
+                "an unexpected sunset"
               ]
 
 saying = """
@@ -64,6 +67,5 @@ Feels like {3}.
 
 {4}. {5}
 """.format(pick(BANDS), pick(BEER_BRANDS), pick(PLACES), pick(GOOD_THINGS), pick(EXPRESSIONS), pick(EMOTICONS))
-
 
 print saying
