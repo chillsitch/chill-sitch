@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+import random
+
+def pick(arr):
+    return random.choice(arr)
+
+BANDS = [
+            "Dave Matthews Band",
+            "311",
+            "Joni Mitchell",
+            "Cat Stevens",
+            "Guster",
+            "Dispatch",
+            "early Phil Collins",
+            "Ben Folds",
+            "Sam Cooke"
+        ]
+
+PLACES = [
+            "fern bar",
+            "swim-up bar",
+            "park",
+            "big park",
+            "regional music event",
+            "free local music event",
+            "beer tasting event",
+            "friend's bbq",
+         ]
+
+EMOTICONS = [ ";)" ]
+
+EXPRESSIONS = [
+                "bingo",
+                "tubular",
+                "aw yeah",
+                "feels right",
+                "emotions just right",
+                "everything just right"
+              ]
+
+BEER_BRANDS = [
+                "Sierra Nevada",
+                "not hoppy IPA",
+                "Corona",
+                "Corona",
+                "Corona"
+              ]
+
+GOOD_THINGS = [
+                "hanging with a cool ex",
+                "playing pool but not for money",
+                "avoiding a nail in the road",
+                "meeting Sade",
+                "talking to Sade about her trip to Costa Rica",
+                "discovering $5 in my pocket and giving it away"
+              ]
+
+saying = """
+Someone just put on {0}. {1}. That's just what it's like at this {2}.
+Feels like {3}.
+
+{4}. {5}
+""".format(pick(BANDS), pick(BEER_BRANDS), pick(PLACES), pick(GOOD_THINGS), pick(EXPRESSIONS), pick(EMOTICONS))
+
+
+print saying
