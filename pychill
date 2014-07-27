@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 import random
 
+# ;)
 def pick(arr):
     return random.choice(arr)
 
+# ;)
 BANDS = [
             "Dave Matthews Band",
             "311",
@@ -17,6 +19,7 @@ BANDS = [
             "Carole King"
         ]
 
+# ;)
 PLACES = [
             "fern bar",
             "swim-up bar",
@@ -30,8 +33,10 @@ PLACES = [
             "lazy river"
          ]
 
+# ;)
 EMOTICONS = [ ";)" ]
 
+# ;)
 EXPRESSIONS = [
                 "bingo",
                 "tubular",
@@ -41,6 +46,7 @@ EXPRESSIONS = [
                 "everything just right"
               ]
 
+# ;)
 BEER_BRANDS = [
                 "Sierra Nevada",
                 "not hoppy IPA",
@@ -49,6 +55,7 @@ BEER_BRANDS = [
                 "Corona"
               ]
 
+# ;)
 GOOD_THINGS = [
                 "hanging with a cool ex",
                 "playing pool but not for money",
