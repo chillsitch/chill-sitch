@@ -1,3 +1,3 @@
-![](http://www.theprospect.net/wp-content/uploads/2014/01/winky-face.jpg)
+![](http://i.imgur.com/BL9Vdvx.png)
 
 Inspired by [@chillsitch](http://www.twitter.com/chillsitch)
