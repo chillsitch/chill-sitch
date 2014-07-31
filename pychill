@@ -78,4 +78,4 @@ Feels like {3}.
 {4}. {5}
 """.format(pick(BANDS), pick(BEER_BRANDS), pick(PLACES), pick(GOOD_THINGS), pick(EXPRESSIONS), pick(EMOTICONS))
 
-print saying
+print(saying)
